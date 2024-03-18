@@ -12,6 +12,7 @@ public interface Visitable
     LocalTime getClosingHour();
     void setClosingHour(LocalTime closingHour);
 
+    //Returneaza ora de deschidere a unei atractii in functie de o data si un orar date ca parametrii
     default LocalTime getOpeningHour(LocalDate date, Map<LocalDate, Pair<LocalTime, LocalTime>> map)
     {
         List<Map.Entry<LocalDate, Pair<LocalTime, LocalTime>>> entryList = new ArrayList<>(map.entrySet());

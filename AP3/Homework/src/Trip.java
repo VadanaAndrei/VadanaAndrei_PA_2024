@@ -59,6 +59,7 @@ public class Trip
         this.time = time;
     }
 
+    //Afiseaza atractiile care sunt Visitable, dar nu si Payable, sortate dupa ora de deschidere
     public void printVisitableNotPayable()
     {
         System.out.print("These atractions are Visitable and not Payable: ");

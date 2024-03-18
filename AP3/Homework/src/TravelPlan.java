@@ -21,6 +21,7 @@ public class TravelPlan
             for(Atraction a : t.getAtractions())
             {
                 List<LocalDate> keyList = new ArrayList<>(a.availability.keySet());
+                //Se alege o zi aleatorie din perioada in care este deschisa o atractie si apoi se verifica daca turistul poate vizita atractia pe data respectiva
                 int index = (int) (Math.random() * keyList.size());
                 LocalDate dateToCheck = keyList.get(index);
                 if((dateToCheck.isEqual(t.getTime().getFirst()) || dateToCheck.isAfter(t.getTime().getFirst()))

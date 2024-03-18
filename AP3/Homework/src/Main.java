@@ -6,6 +6,8 @@ import java.util.Map;
 public class Main {
     public static void main(String args[])
     {
+        //Doua LinkedHashMap-uri, cate una pentru fiecare Trip(fiecare atractie a trip-ului primeste o mapa care reprezinta orarul acelor atractii)
+        //Fiecare LinkedHashMap are drept cheie un LocalDate si drept valoare o clasa Pair care contine doua variabile de tip LocalTime
         Map<LocalDate, Pair<LocalTime, LocalTime>> map1 = new LinkedHashMap<>();
         map1.put(LocalDate.of(2024,3,18), new Pair<>(LocalTime.of(8, 0), LocalTime.of(17, 0)));
         map1.put(LocalDate.of(2024,3,19), new Pair<>(LocalTime.of(7, 0), LocalTime.of(16, 0)));
@@ -32,8 +34,8 @@ public class Main {
         Concert concert2 = new Concert("SosMula", map2, 399.9);
         Statue statue2 = new Statue("Christ the Redeemer", map2);
 
-        System.out.println(concert1);
-        System.out.println(church1);
+        //System.out.println(concert1);
+        //System.out.println(church1);
         Trip t1 = new Trip("New York",new Pair<>(LocalDate.of(2024,3,17), LocalDate.of(2024,3,22)), church1, concert1, statue1);
         Trip t2 = new Trip("Rio de Janeiro",new Pair<>(LocalDate.of(2024,4,1), LocalDate.of(2024,4,4)), church2, concert2);
         //System.out.println(t1);

@@ -14,6 +14,7 @@ public abstract class Atraction
     {
         this.name = name;
 
+        //Un LinkedHashMap care are drept cheie un DayOfWeek si drept valoare o clasa Pair care contine doua variabile de tip LocalTime
         Map<DayOfWeek, Pair<LocalTime, LocalTime>> availability = new LinkedHashMap<>();
         availability.put(DayOfWeek.MONDAY, new Pair<>(LocalTime.of(8, 0), LocalTime.of(17, 0)));
         availability.put(DayOfWeek.TUESDAY, new Pair<>(LocalTime.of(8, 0), LocalTime.of(17, 0)));
