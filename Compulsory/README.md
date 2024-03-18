@@ -1,0 +1,1 @@
+Am creat clasele Driver si Passenger care extind clasa Person. Clasa Person contine numele si varsta unei persoane. Clasa Group contine o lista de persoane cu ajutorul careia vor fi create alte liste care contin doar soferi, respectiv doar pasageri. Aceste liste vor fi sortate folosind stream-uri.
