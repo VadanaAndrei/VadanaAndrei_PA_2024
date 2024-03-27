@@ -1,0 +1,42 @@
+{
+    "documents": {
+        "Person[id=1, name=Andrei]": [
+            {
+                "owner": {
+                    "id": 1,
+                    "name": "Andrei"
+                },
+                "name": "hello",
+                "extension": "txt"
+            }
+        ],
+        "Person[id=2, name=Tudor]": [
+            {
+                "owner": {
+                    "id": 2,
+                    "name": "Tudor"
+                },
+                "name": "bruno",
+                "extension": "txt"
+            },
+            {
+                "owner": {
+                    "id": 2,
+                    "name": "Tudor"
+                },
+                "name": "script_populare_student",
+                "extension": "sql"
+            }
+        ],
+        "Person[id=3, name=Stefan]": [
+            {
+                "owner": {
+                    "id": 3,
+                    "name": "Stefan"
+                },
+                "name": "ClassDiagram",
+                "extension": "png"
+            }
+        ]
+    }
+}
