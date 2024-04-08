@@ -1,0 +1,1 @@
+Clasa Tile are campurile firstNumber si secondNumber care contin doua numere distincte intre 1 si maxTileNumber (numar specificat in Game). In clasa Game se creeaza cate un thread pentru fiecare player care joaca, iar acestia extrag tile-uri dintr-un bag intr-o maniera concurenta, pana cand bag-ul se goleste.
