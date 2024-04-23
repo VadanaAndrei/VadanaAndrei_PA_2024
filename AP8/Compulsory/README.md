@@ -1,0 +1,1 @@
+Clasa Database se ocupa de stabilirea conexiunii cu o baza de date MySQL. In clasa AuthorDAO avem metodele pentru a insera in baza de date si pentru a cauta o intrare din baza de date dupa nume sau id. Apoi in Main se introduce un nume in baza de date, se cauta un nume si se cauta un id.
