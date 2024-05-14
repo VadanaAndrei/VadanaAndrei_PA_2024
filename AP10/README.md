@@ -1,0 +1,1 @@
+Proiectul ServerApplication porneste un server pe portul 4444 care asculta pentru conexiuni. Un client se poate conecta si trimite comenzi catre server, iar daca trimite comanda stop, ambele se opresc.
