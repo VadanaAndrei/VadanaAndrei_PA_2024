@@ -1,0 +1,1 @@
+Aplicatia contine modelul Author care reprezinta tabelul authors din baza de date, un controller care contine GET request-ul obtinut prin apelarea unei metode din service, metoda obtinuta la randul ei prin apelarea unui query din repository, care comunica direct cu baza de date.
