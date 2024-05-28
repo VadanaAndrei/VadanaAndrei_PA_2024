@@ -1,0 +1,1 @@
+Clasa ClassLoaderUtil poate incarca o clasa specificata, o poate analiza și poate rula metodele marcate cu o adnotarea @Test.
